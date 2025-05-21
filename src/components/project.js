@@ -8,6 +8,7 @@ import project2 from '@/asset/project2.jpg';
 import project3 from '@/asset/project3.jpg';
 import project4 from '@/asset/project4.png';
 import project5 from '@/asset/project5.jpg';
+import project6 from '@/asset/project6.jpg';
 
 export default function Project() {
   const project = [
@@ -34,6 +35,14 @@ export default function Project() {
       image: project3,
       stack: ['NextJS', 'TailwindCSS', 'ExpressJS', 'MongoDB'],
       ref: 'https://webkpbaru.vercel.app',
+    },
+    {
+      name: 'Quizz App',
+      description:
+        'Built for frontend online assesment, this app use React+Vite and TailwindCSS. Getting data from OpenTDB api, the quiz contain 10 questions with 3 level difficulty that can be choose. Also there is timer to make this quiz more challenging',
+      image: project6,
+      stack: ['ReacJS', 'TailwindCSS', 'Vite', 'OpenTDB'],
+      ref: 'https://myquizz-app.vercel.app/',
     },
     {
       name: 'KAI Website Redesign',
